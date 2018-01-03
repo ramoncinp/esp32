@@ -43,6 +43,6 @@ void loop()
   if (brightness <= 0 || brightness >= 255) {
     fadeAmount = -fadeAmount;
   }
-  // wait for 50 milliseconds to see the dimming effect
-  delay(50);
+  // wait for 10 milliseconds to see the dimming effect
+  delay(10);
 }
